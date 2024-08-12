@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { Description } from "@radix-ui/react-dialog";
 
 export const RESUME_DATA = {
   name: "Rahvian Young",
@@ -28,11 +29,11 @@ export const RESUME_DATA = {
   "Experienced professional with a background in merchandising, warehouse operations, and order fulfillment.",
   summary:
   "Dedicated worker with experience in various roles including merchandising, order fulfillment, and warehouse operations. Skilled in e-commerce, digital marketing, and social media management. Currently pursuing degrees in Business Marketing and Computer Science Cyber Security.",
-  avatarUrl: "YOUR_PHOTO_URL",
+  avatarUrl: "/headshot.jpg",
   personalWebsiteUrl: "",
   contact: {
   email: "Rahvianyoung@gmail.com",
-  tel: "+1234567890", // Replace with your actual phone number if you want to include it
+  tel: "+8176757116", // Replace with your actual phone number if you want to include it
   social: [
   // Include or remove these as needed
   {
@@ -42,12 +43,12 @@ export const RESUME_DATA = {
   },
   {
   name: "LinkedIn",
-  url: "YOUR_LINKEDIN_URL",
+  url: "https://www.linkedin.com/in/rahvian-young-b44a82162/",
   icon: LinkedInIcon,
   },
   {
   name: "X",
-  url: "YOUR_X_PROFILE",
+  url: "https://twitter.com/RahvianYoung",
   icon: XIcon,
   },
   ],
@@ -120,6 +121,16 @@ export const RESUME_DATA = {
   "Google Analytics",
   ],
   projects: [
+    {
+      title: "ZombMobNft Project",
+      techStack: ["Content Creation", "Content Editing", "Videography", "Graphic Design", "Website Building"],
+      description: "ZombMobnft is a non-fiction initiative I started in 2022 with Polygon cryptocurrency to explore economic behavior in a hypothetical zombie world. Our goal is to determine whether zombies can establish a new economy with unique expenditure patterns. In this scenario, essential items like food and living expenses are costly, while luxury items like designer clothing and jewelry are inexpensive. This project aims to demonstrate financial management skills in an unconventional setting. It's designed as a game-like experience where participants balance spending on necessities versus trendy items. Through NFT staking, we also provide investors with opportunities to profit from their investments.",
+      logo: "https://x.com/Zombmobnft/status/1545574752563126273",
+      link: {
+        label: "ZombMobNft",
+        href: "https://www.mintables.club/m/zombmobnft"
+      },
+    },
   // You can add any personal or academic projects here if applicable
   ],
-  } as const;
+} as const;
